@@ -1,0 +1,51 @@
+//
+//  ebusbarManager-Prefix.pch
+//  ebusbarManager
+//
+//  Created by 刘必红 on 2017/5/24.
+//  Copyright © 2017年 深圳前海巴斯巴网络服务有限公司. All rights reserved.
+//
+
+#ifndef ebusbarManager_Prefix_pch
+#define ebusbarManager_Prefix_pch
+
+//#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Masonry.h"
+#import "AFNetworking.h"
+#import "YYModel.h"
+#import "MBProgressHUD.h"
+//#import "SVProgressHUD.h"
+//#import <MAMapKit/MAMapKit.h>
+//#import <AMapFoundationKit/AMapFoundationKit.h>
+//#import <AMapLocationKit/AMapLocationKit.h>
+//#import "MMDrawerBarButtonItem.h"
+//#import "UIViewController+MMDrawerController.h"
+#import "MJRefresh.h"
+#import "MBProgressHUD+MJ.h"
+#import "UIImageView+WebCache.h"
+ #import "UIView+YSTextInputKeyboard.h"
+
+#import "BSBMacro.h"
+#import "BSBInterfaces.h"
+#import "BSBHttpTool.h"
+
+#import "UILabel+Category.h"
+#import "UIImage+Category.h"
+#import "UIButton+Category.h"
+#import "NSString+Category.h"
+#import "UIView+Category.h"
+#import "UIImageView+Category.h"
+#import "NSDictionary+Category.h"
+#import "UIButton+click.h"
+
+#import "BSBBaseUserDefaults.h"
+#import "BSBBaseModel.h"
+#import "BSBBaseViewController.h"
+#import "BSBNavigationController.h"
+
+//#endif
+
+#endif /* ebusbarManager_Prefix_pch */

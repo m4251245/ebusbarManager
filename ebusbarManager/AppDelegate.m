@@ -14,10 +14,56 @@
 
 @implementation AppDelegate
 
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window{
+    return UIInterfaceOrientationMaskPortrait;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    UINavigationController *nav = [[NSClassFromString(@"BSBNavigationController") alloc] initWithRootViewController:[[NSClassFromString(@"BSBLoginViewController") alloc] init]];
+    self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    [self.window setRootViewController:nav];
+    [self.window makeKeyAndVisible];
+    
+    [self checkNetworkStatus];
+    
     return YES;
+}
+
+- (void)checkNetworkStatus
+{
+    AFNetworkReachabilityManager *afNetworkReachabilityManager = [AFNetworkReachabilityManager sharedManager];
+    
+    [afNetworkReachabilityManager startMonitoring];  //开启网络监视器；
+    
+    [afNetworkReachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        
+        NSString *text = nil;
+        switch (status) {
+            case AFNetworkReachabilityStatusUnknown:
+                
+            case AFNetworkReachabilityStatusNotReachable:{
+                text = @"网络异常！";
+                [MBProgressHUD showError:text];
+                break;
+            }
+                
+            case AFNetworkReachabilityStatusReachableViaWiFi:{
+                text = @"网络通过WIFI连接！";
+                break;
+            }
+                
+            case AFNetworkReachabilityStatusReachableViaWWAN:{
+                text = @"网络通过WWAN连接！";
+                break;
+            }
+            default:
+                break;
+        }
+        
+        NSLog(@"%@", AFStringFromNetworkReachabilityStatus(status));
+    }];
 }
 
 

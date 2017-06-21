@@ -7,14 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392C797AE830A32B0CD18E5C /* libPods-ebusbarManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B0289057A753461DDF592B /* libPods-ebusbarManager.a */; };
+		B90F6B3F1ED660F900A3B23F /* BSBScanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90F6B3E1ED660F900A3B23F /* BSBScanListViewController.m */; };
+		B90F6B421ED668AD00A3B23F /* BSBScanQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90F6B411ED668AD00A3B23F /* BSBScanQRViewController.m */; };
+		B90F6B461ED6B3F000A3B23F /* Test.plist in Resources */ = {isa = PBXBuildFile; fileRef = B90F6B451ED6B3F000A3B23F /* Test.plist */; };
 		B928C6D11ED527E3000E6E09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C6D01ED527E3000E6E09 /* main.m */; };
 		B928C6D41ED527E3000E6E09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C6D31ED527E3000E6E09 /* AppDelegate.m */; };
-		B928C6D71ED527E3000E6E09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C6D61ED527E3000E6E09 /* ViewController.m */; };
 		B928C6DA1ED527E3000E6E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B928C6D81ED527E3000E6E09 /* Main.storyboard */; };
 		B928C6DC1ED527E3000E6E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B928C6DB1ED527E3000E6E09 /* Assets.xcassets */; };
 		B928C6DF1ED527E3000E6E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B928C6DD1ED527E3000E6E09 /* LaunchScreen.storyboard */; };
 		B928C6EA1ED527E3000E6E09 /* ebusbarManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C6E91ED527E3000E6E09 /* ebusbarManagerTests.m */; };
 		B928C6F51ED527E3000E6E09 /* ebusbarManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C6F41ED527E3000E6E09 /* ebusbarManagerUITests.m */; };
+		B928C7081ED52866000E6E09 /* BSBConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7051ED52866000E6E09 /* BSBConstants.m */; };
+		B928C70D1ED52935000E6E09 /* BSBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C70C1ED52935000E6E09 /* BSBNavigationController.m */; };
+		B928C7101ED52950000E6E09 /* BSBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C70F1ED52950000E6E09 /* BSBBaseViewController.m */; };
+		B928C7131ED52993000E6E09 /* BSBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7121ED52993000E6E09 /* BSBLoginViewController.m */; };
+		B928C7171ED52F04000E6E09 /* BSBHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7161ED52F04000E6E09 /* BSBHttpTool.m */; };
+		B928C71E1ED589A6000E6E09 /* BSBUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C71D1ED589A6000E6E09 /* BSBUserModel.m */; };
+		B928C7221ED589F9000E6E09 /* BSBBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7211ED589F9000E6E09 /* BSBBaseModel.m */; };
+		B928C7261ED58CD6000E6E09 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7251ED58CD6000E6E09 /* NSString+Category.m */; };
+		B928C7291ED58D4A000E6E09 /* BSBBaseUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7281ED58D4A000E6E09 /* BSBBaseUserDefaults.m */; };
+		B928C72C1ED58D7A000E6E09 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C72B1ED58D7A000E6E09 /* MBProgressHUD+MJ.m */; };
+		B928C7451ED58DCD000E6E09 /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7311ED58DCC000E6E09 /* NSDictionary+Category.m */; };
+		B928C7461ED58DCD000E6E09 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7331ED58DCC000E6E09 /* NSString+Category.m */; };
+		B928C7471ED58DCD000E6E09 /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7351ED58DCC000E6E09 /* UIButton+Category.m */; };
+		B928C7481ED58DCD000E6E09 /* UIButton+click.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7371ED58DCD000E6E09 /* UIButton+click.m */; };
+		B928C7491ED58DCD000E6E09 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7391ED58DCD000E6E09 /* UIColor+Category.m */; };
+		B928C74A1ED58DCD000E6E09 /* UIControl+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C73B1ED58DCD000E6E09 /* UIControl+Category.m */; };
+		B928C74B1ED58DCD000E6E09 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C73D1ED58DCD000E6E09 /* UIImage+Category.m */; };
+		B928C74C1ED58DCD000E6E09 /* UIImageView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C73F1ED58DCD000E6E09 /* UIImageView+Category.m */; };
+		B928C74D1ED58DCD000E6E09 /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7411ED58DCD000E6E09 /* UILabel+Category.m */; };
+		B928C74E1ED58DCD000E6E09 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7431ED58DCD000E6E09 /* UIView+Category.m */; };
+		B928C7541ED58E82000E6E09 /* UIView+YSTextInputKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7531ED58E82000E6E09 /* UIView+YSTextInputKeyboard.m */; };
+		B928C7571ED5929D000E6E09 /* BSBServiceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7561ED5929D000E6E09 /* BSBServiceListViewController.m */; };
+		B928C75A1ED5A9A2000E6E09 /* BSBServicesListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C7591ED5A9A2000E6E09 /* BSBServicesListModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +61,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41B0289057A753461DDF592B /* libPods-ebusbarManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ebusbarManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B27B882336E7951A5F50ED /* Pods-ebusbarManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ebusbarManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ebusbarManager/Pods-ebusbarManager.debug.xcconfig"; sourceTree = "<group>"; };
+		960E14A225A2A1C390B3ED55 /* Pods-ebusbarManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ebusbarManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-ebusbarManager/Pods-ebusbarManager.release.xcconfig"; sourceTree = "<group>"; };
+		B90F6B3D1ED660F900A3B23F /* BSBScanListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBScanListViewController.h; sourceTree = "<group>"; };
+		B90F6B3E1ED660F900A3B23F /* BSBScanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBScanListViewController.m; sourceTree = "<group>"; };
+		B90F6B401ED668AD00A3B23F /* BSBScanQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBScanQRViewController.h; sourceTree = "<group>"; };
+		B90F6B411ED668AD00A3B23F /* BSBScanQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBScanQRViewController.m; sourceTree = "<group>"; };
+		B90F6B451ED6B3F000A3B23F /* Test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Test.plist; sourceTree = "<group>"; };
 		B928C6CC1ED527E3000E6E09 /* ebusbarManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ebusbarManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B928C6D01ED527E3000E6E09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B928C6D21ED527E3000E6E09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B928C6D31ED527E3000E6E09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B928C6D51ED527E3000E6E09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B928C6D61ED527E3000E6E09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B928C6D91ED527E3000E6E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B928C6DB1ED527E3000E6E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B928C6DE1ED527E3000E6E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +83,55 @@
 		B928C6F01ED527E3000E6E09 /* ebusbarManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ebusbarManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B928C6F41ED527E3000E6E09 /* ebusbarManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ebusbarManagerUITests.m; sourceTree = "<group>"; };
 		B928C6F61ED527E3000E6E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B928C7041ED52866000E6E09 /* BSBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBConstants.h; sourceTree = "<group>"; };
+		B928C7051ED52866000E6E09 /* BSBConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBConstants.m; sourceTree = "<group>"; };
+		B928C7061ED52866000E6E09 /* BSBInterfaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBInterfaces.h; sourceTree = "<group>"; };
+		B928C7071ED52866000E6E09 /* BSBMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBMacro.h; sourceTree = "<group>"; };
+		B928C70B1ED52935000E6E09 /* BSBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBNavigationController.h; sourceTree = "<group>"; };
+		B928C70C1ED52935000E6E09 /* BSBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBNavigationController.m; sourceTree = "<group>"; };
+		B928C70E1ED52950000E6E09 /* BSBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBBaseViewController.h; sourceTree = "<group>"; };
+		B928C70F1ED52950000E6E09 /* BSBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBBaseViewController.m; sourceTree = "<group>"; };
+		B928C7111ED52993000E6E09 /* BSBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBLoginViewController.h; sourceTree = "<group>"; };
+		B928C7121ED52993000E6E09 /* BSBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBLoginViewController.m; sourceTree = "<group>"; };
+		B928C7151ED52F04000E6E09 /* BSBHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBHttpTool.h; sourceTree = "<group>"; };
+		B928C7161ED52F04000E6E09 /* BSBHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBHttpTool.m; sourceTree = "<group>"; };
+		B928C71C1ED589A6000E6E09 /* BSBUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBUserModel.h; sourceTree = "<group>"; };
+		B928C71D1ED589A6000E6E09 /* BSBUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBUserModel.m; sourceTree = "<group>"; };
+		B928C7201ED589F9000E6E09 /* BSBBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBBaseModel.h; sourceTree = "<group>"; };
+		B928C7211ED589F9000E6E09 /* BSBBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBBaseModel.m; sourceTree = "<group>"; };
+		B928C7231ED58C5F000E6E09 /* ebusbarManager-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ebusbarManager-Prefix.pch"; sourceTree = "<group>"; };
+		B928C7241ED58CD6000E6E09 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		B928C7251ED58CD6000E6E09 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		B928C7271ED58D4A000E6E09 /* BSBBaseUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBBaseUserDefaults.h; sourceTree = "<group>"; };
+		B928C7281ED58D4A000E6E09 /* BSBBaseUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBBaseUserDefaults.m; sourceTree = "<group>"; };
+		B928C72A1ED58D7A000E6E09 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		B928C72B1ED58D7A000E6E09 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		B928C7301ED58DCC000E6E09 /* NSDictionary+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Category.h"; sourceTree = "<group>"; };
+		B928C7311ED58DCC000E6E09 /* NSDictionary+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Category.m"; sourceTree = "<group>"; };
+		B928C7321ED58DCC000E6E09 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		B928C7331ED58DCC000E6E09 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		B928C7341ED58DCC000E6E09 /* UIButton+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Category.h"; sourceTree = "<group>"; };
+		B928C7351ED58DCC000E6E09 /* UIButton+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Category.m"; sourceTree = "<group>"; };
+		B928C7361ED58DCC000E6E09 /* UIButton+click.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+click.h"; sourceTree = "<group>"; };
+		B928C7371ED58DCD000E6E09 /* UIButton+click.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+click.m"; sourceTree = "<group>"; };
+		B928C7381ED58DCD000E6E09 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		B928C7391ED58DCD000E6E09 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		B928C73A1ED58DCD000E6E09 /* UIControl+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Category.h"; sourceTree = "<group>"; };
+		B928C73B1ED58DCD000E6E09 /* UIControl+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Category.m"; sourceTree = "<group>"; };
+		B928C73C1ED58DCD000E6E09 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		B928C73D1ED58DCD000E6E09 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		B928C73E1ED58DCD000E6E09 /* UIImageView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Category.h"; sourceTree = "<group>"; };
+		B928C73F1ED58DCD000E6E09 /* UIImageView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Category.m"; sourceTree = "<group>"; };
+		B928C7401ED58DCD000E6E09 /* UILabel+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Category.h"; sourceTree = "<group>"; };
+		B928C7411ED58DCD000E6E09 /* UILabel+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Category.m"; sourceTree = "<group>"; };
+		B928C7421ED58DCD000E6E09 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		B928C7431ED58DCD000E6E09 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		B928C7521ED58E82000E6E09 /* UIView+YSTextInputKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YSTextInputKeyboard.h"; sourceTree = "<group>"; };
+		B928C7531ED58E82000E6E09 /* UIView+YSTextInputKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YSTextInputKeyboard.m"; sourceTree = "<group>"; };
+		B928C7551ED5929D000E6E09 /* BSBServiceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBServiceListViewController.h; sourceTree = "<group>"; };
+		B928C7561ED5929D000E6E09 /* BSBServiceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBServiceListViewController.m; sourceTree = "<group>"; };
+		B928C7581ED5A9A2000E6E09 /* BSBServicesListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBServicesListModel.h; sourceTree = "<group>"; };
+		B928C7591ED5A9A2000E6E09 /* BSBServicesListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBServicesListModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392C797AE830A32B0CD18E5C /* libPods-ebusbarManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +160,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CCDC683C732B6EA452ABE68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95B27B882336E7951A5F50ED /* Pods-ebusbarManager.debug.xcconfig */,
+				960E14A225A2A1C390B3ED55 /* Pods-ebusbarManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4D055EB4FD58C6C94E36FCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41B0289057A753461DDF592B /* libPods-ebusbarManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B928C6C31ED527E3000E6E09 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +184,8 @@
 				B928C6E81ED527E3000E6E09 /* ebusbarManagerTests */,
 				B928C6F31ED527E3000E6E09 /* ebusbarManagerUITests */,
 				B928C6CD1ED527E3000E6E09 /* Products */,
+				1CCDC683C732B6EA452ABE68 /* Pods */,
+				A4D055EB4FD58C6C94E36FCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +202,17 @@
 		B928C6CE1ED527E3000E6E09 /* ebusbarManager */ = {
 			isa = PBXGroup;
 			children = (
+				B928C7091ED52911000E6E09 /* Home */,
+				B928C70A1ED52911000E6E09 /* Other */,
 				B928C6D21ED527E3000E6E09 /* AppDelegate.h */,
 				B928C6D31ED527E3000E6E09 /* AppDelegate.m */,
-				B928C6D51ED527E3000E6E09 /* ViewController.h */,
-				B928C6D61ED527E3000E6E09 /* ViewController.m */,
+				B928C7031ED52866000E6E09 /* AppDefines */,
 				B928C6D81ED527E3000E6E09 /* Main.storyboard */,
 				B928C6DB1ED527E3000E6E09 /* Assets.xcassets */,
 				B928C6DD1ED527E3000E6E09 /* LaunchScreen.storyboard */,
 				B928C6E01ED527E3000E6E09 /* Info.plist */,
 				B928C6CF1ED527E3000E6E09 /* Supporting Files */,
+				B90F6B451ED6B3F000A3B23F /* Test.plist */,
 			);
 			path = ebusbarManager;
 			sourceTree = "<group>";
@@ -140,6 +243,128 @@
 			path = ebusbarManagerUITests;
 			sourceTree = "<group>";
 		};
+		B928C7031ED52866000E6E09 /* AppDefines */ = {
+			isa = PBXGroup;
+			children = (
+				B928C7241ED58CD6000E6E09 /* NSString+Category.h */,
+				B928C7251ED58CD6000E6E09 /* NSString+Category.m */,
+				B928C7231ED58C5F000E6E09 /* ebusbarManager-Prefix.pch */,
+				B928C7041ED52866000E6E09 /* BSBConstants.h */,
+				B928C7051ED52866000E6E09 /* BSBConstants.m */,
+				B928C7061ED52866000E6E09 /* BSBInterfaces.h */,
+				B928C7071ED52866000E6E09 /* BSBMacro.h */,
+			);
+			path = AppDefines;
+			sourceTree = "<group>";
+		};
+		B928C7091ED52911000E6E09 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B928C72D1ED58DCC000E6E09 /* AppExtra */,
+				B928C71F1ED589F4000E6E09 /* Common */,
+				B928C7271ED58D4A000E6E09 /* BSBBaseUserDefaults.h */,
+				B928C7281ED58D4A000E6E09 /* BSBBaseUserDefaults.m */,
+				B928C7201ED589F9000E6E09 /* BSBBaseModel.h */,
+				B928C7211ED589F9000E6E09 /* BSBBaseModel.m */,
+				B928C7191ED5899F000E6E09 /* List */,
+				B928C71A1ED5899F000E6E09 /* Login */,
+				B928C71C1ED589A6000E6E09 /* BSBUserModel.h */,
+				B928C71D1ED589A6000E6E09 /* BSBUserModel.m */,
+				B928C71B1ED5899F000E6E09 /* Scan */,
+				B928C7111ED52993000E6E09 /* BSBLoginViewController.h */,
+				B928C7121ED52993000E6E09 /* BSBLoginViewController.m */,
+				B928C70E1ED52950000E6E09 /* BSBBaseViewController.h */,
+				B928C70F1ED52950000E6E09 /* BSBBaseViewController.m */,
+				B928C70B1ED52935000E6E09 /* BSBNavigationController.h */,
+				B928C70C1ED52935000E6E09 /* BSBNavigationController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B928C70A1ED52911000E6E09 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B928C72A1ED58D7A000E6E09 /* MBProgressHUD+MJ.h */,
+				B928C72B1ED58D7A000E6E09 /* MBProgressHUD+MJ.m */,
+				B928C7141ED52F04000E6E09 /* Tools */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B928C7141ED52F04000E6E09 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B928C7151ED52F04000E6E09 /* BSBHttpTool.h */,
+				B928C7161ED52F04000E6E09 /* BSBHttpTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B928C7191ED5899F000E6E09 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B928C7551ED5929D000E6E09 /* BSBServiceListViewController.h */,
+				B928C7561ED5929D000E6E09 /* BSBServiceListViewController.m */,
+				B928C7581ED5A9A2000E6E09 /* BSBServicesListModel.h */,
+				B928C7591ED5A9A2000E6E09 /* BSBServicesListModel.m */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		B928C71A1ED5899F000E6E09 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B928C71B1ED5899F000E6E09 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				B90F6B3D1ED660F900A3B23F /* BSBScanListViewController.h */,
+				B90F6B3E1ED660F900A3B23F /* BSBScanListViewController.m */,
+				B90F6B401ED668AD00A3B23F /* BSBScanQRViewController.h */,
+				B90F6B411ED668AD00A3B23F /* BSBScanQRViewController.m */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		B928C71F1ED589F4000E6E09 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B928C72D1ED58DCC000E6E09 /* AppExtra */ = {
+			isa = PBXGroup;
+			children = (
+				B928C7521ED58E82000E6E09 /* UIView+YSTextInputKeyboard.h */,
+				B928C7531ED58E82000E6E09 /* UIView+YSTextInputKeyboard.m */,
+				B928C7301ED58DCC000E6E09 /* NSDictionary+Category.h */,
+				B928C7311ED58DCC000E6E09 /* NSDictionary+Category.m */,
+				B928C7321ED58DCC000E6E09 /* NSString+Category.h */,
+				B928C7331ED58DCC000E6E09 /* NSString+Category.m */,
+				B928C7341ED58DCC000E6E09 /* UIButton+Category.h */,
+				B928C7351ED58DCC000E6E09 /* UIButton+Category.m */,
+				B928C7361ED58DCC000E6E09 /* UIButton+click.h */,
+				B928C7371ED58DCD000E6E09 /* UIButton+click.m */,
+				B928C7381ED58DCD000E6E09 /* UIColor+Category.h */,
+				B928C7391ED58DCD000E6E09 /* UIColor+Category.m */,
+				B928C73A1ED58DCD000E6E09 /* UIControl+Category.h */,
+				B928C73B1ED58DCD000E6E09 /* UIControl+Category.m */,
+				B928C73C1ED58DCD000E6E09 /* UIImage+Category.h */,
+				B928C73D1ED58DCD000E6E09 /* UIImage+Category.m */,
+				B928C73E1ED58DCD000E6E09 /* UIImageView+Category.h */,
+				B928C73F1ED58DCD000E6E09 /* UIImageView+Category.m */,
+				B928C7401ED58DCD000E6E09 /* UILabel+Category.h */,
+				B928C7411ED58DCD000E6E09 /* UILabel+Category.m */,
+				B928C7421ED58DCD000E6E09 /* UIView+Category.h */,
+				B928C7431ED58DCD000E6E09 /* UIView+Category.m */,
+			);
+			path = AppExtra;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +372,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B928C6F91ED527E3000E6E09 /* Build configuration list for PBXNativeTarget "ebusbarManager" */;
 			buildPhases = (
+				34B73F4D5974B8286F3B330F /* [CP] Check Pods Manifest.lock */,
 				B928C6C81ED527E3000E6E09 /* Sources */,
 				B928C6C91ED527E3000E6E09 /* Frameworks */,
 				B928C6CA1ED527E3000E6E09 /* Resources */,
+				8067C79AA78B84907A610DAE /* [CP] Embed Pods Frameworks */,
+				4E2E3872242EB2AE3BA801B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +435,8 @@
 				TargetAttributes = {
 					B928C6CB1ED527E3000E6E09 = {
 						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = YV5SRY9UYR;
+						ProvisioningStyle = Manual;
 					};
 					B928C6E41ED527E3000E6E09 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -246,6 +475,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B90F6B461ED6B3F000A3B23F /* Test.plist in Resources */,
 				B928C6DF1ED527E3000E6E09 /* LaunchScreen.storyboard in Resources */,
 				B928C6DC1ED527E3000E6E09 /* Assets.xcassets in Resources */,
 				B928C6DA1ED527E3000E6E09 /* Main.storyboard in Resources */,
@@ -268,14 +498,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34B73F4D5974B8286F3B330F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E2E3872242EB2AE3BA801B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ebusbarManager/Pods-ebusbarManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8067C79AA78B84907A610DAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ebusbarManager/Pods-ebusbarManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B928C6C81ED527E3000E6E09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B928C6D71ED527E3000E6E09 /* ViewController.m in Sources */,
+				B928C7471ED58DCD000E6E09 /* UIButton+Category.m in Sources */,
+				B928C74E1ED58DCD000E6E09 /* UIView+Category.m in Sources */,
+				B928C72C1ED58D7A000E6E09 /* MBProgressHUD+MJ.m in Sources */,
+				B928C71E1ED589A6000E6E09 /* BSBUserModel.m in Sources */,
+				B928C7081ED52866000E6E09 /* BSBConstants.m in Sources */,
 				B928C6D41ED527E3000E6E09 /* AppDelegate.m in Sources */,
+				B90F6B421ED668AD00A3B23F /* BSBScanQRViewController.m in Sources */,
+				B928C7261ED58CD6000E6E09 /* NSString+Category.m in Sources */,
+				B928C7131ED52993000E6E09 /* BSBLoginViewController.m in Sources */,
+				B928C7291ED58D4A000E6E09 /* BSBBaseUserDefaults.m in Sources */,
+				B928C74A1ED58DCD000E6E09 /* UIControl+Category.m in Sources */,
 				B928C6D11ED527E3000E6E09 /* main.m in Sources */,
+				B928C70D1ED52935000E6E09 /* BSBNavigationController.m in Sources */,
+				B928C7541ED58E82000E6E09 /* UIView+YSTextInputKeyboard.m in Sources */,
+				B90F6B3F1ED660F900A3B23F /* BSBScanListViewController.m in Sources */,
+				B928C7101ED52950000E6E09 /* BSBBaseViewController.m in Sources */,
+				B928C7171ED52F04000E6E09 /* BSBHttpTool.m in Sources */,
+				B928C7451ED58DCD000E6E09 /* NSDictionary+Category.m in Sources */,
+				B928C7461ED58DCD000E6E09 /* NSString+Category.m in Sources */,
+				B928C75A1ED5A9A2000E6E09 /* BSBServicesListModel.m in Sources */,
+				B928C7481ED58DCD000E6E09 /* UIButton+click.m in Sources */,
+				B928C7221ED589F9000E6E09 /* BSBBaseModel.m in Sources */,
+				B928C7491ED58DCD000E6E09 /* UIColor+Category.m in Sources */,
+				B928C7571ED5929D000E6E09 /* BSBServiceListViewController.m in Sources */,
+				B928C74C1ED58DCD000E6E09 /* UIImageView+Category.m in Sources */,
+				B928C74D1ED58DCD000E6E09 /* UILabel+Category.m in Sources */,
+				B928C74B1ED58DCD000E6E09 /* UIImage+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +654,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ling Liu (7GYXUR84UX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ling Liu (7GYXUR84UX)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -400,7 +703,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ling Liu (7GYXUR84UX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ling Liu (7GYXUR84UX)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -422,23 +726,43 @@
 		};
 		B928C6FA1ED527E3000E6E09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B27B882336E7951A5F50ED /* Pods-ebusbarManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ling Liu (7GYXUR84UX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ling Liu (7GYXUR84UX)";
+				DEVELOPMENT_TEAM = YV5SRY9UYR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ebusbarManager/AppDefines/ebusbarManager-Prefix.pch";
 				INFOPLIST_FILE = ebusbarManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ebusbar.service.ebusbarManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dd82aedc-a5ec-4792-88fe-2aa78715035a";
+				PROVISIONING_PROFILE_SPECIFIER = DevelopmentProfile;
 			};
 			name = Debug;
 		};
 		B928C6FB1ED527E3000E6E09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960E14A225A2A1C390B3ED55 /* Pods-ebusbarManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ling Liu (7GYXUR84UX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ling Liu (7GYXUR84UX)";
+				DEVELOPMENT_TEAM = YV5SRY9UYR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ebusbarManager/AppDefines/ebusbarManager-Prefix.pch";
 				INFOPLIST_FILE = ebusbarManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ebusbar.service.ebusbarManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dd82aedc-a5ec-4792-88fe-2aa78715035a";
+				PROVISIONING_PROFILE_SPECIFIER = DevelopmentProfile;
 			};
 			name = Release;
 		};
@@ -507,6 +831,7 @@
 				B928C6FB1ED527E3000E6E09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B928C6FC1ED527E3000E6E09 /* Build configuration list for PBXNativeTarget "ebusbarManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +840,7 @@
 				B928C6FE1ED527E3000E6E09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B928C6FF1ED527E3000E6E09 /* Build configuration list for PBXNativeTarget "ebusbarManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +849,7 @@
 				B928C7011ED527E3000E6E09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
